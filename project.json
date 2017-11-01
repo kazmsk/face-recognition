@@ -1,0 +1,8 @@
+{
+  "name": "face-recognition",
+  "description": "Face Recognition demo",
+  "profile": "default",
+  "handler": "index.handler",
+  "nameTemplate": "{{.Project.Name}}-{{.Function.Name}}",
+  "role": "arn:aws:iam::ACCOUNT_ID:role/IAM_ROLE_NAME"
+}

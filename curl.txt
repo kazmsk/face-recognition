@@ -1,0 +1,2 @@
+curl --request POST -H 'Accept: application/json' -H 'Content-Type: image/png' -H 'x-api-key: API_KEY' --data-binary '@image.png' https://XXXXXXXX.execute-api.us-east-1.amazonaws.com/v1/upload | jq .
+curl --request POST -H 'Accept: application/json' -H 'Content-Type: image/png' -H 'x-api-key: API_KEY' --data-binary '@image.png' https://XXXXXXXX.execute-api.us-east-1.amazonaws.com/v1/authentication | jq .

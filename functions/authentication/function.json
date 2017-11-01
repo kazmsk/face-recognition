@@ -1,0 +1,6 @@
+{
+  "name": "authentication",
+  "runtime": "nodejs6.10",
+  "memory": 128,
+  "timeout": 60
+}
